@@ -1,15 +1,5 @@
 const data = [    
-    
-    {   "id":"1",
-        "name":"abhishek",
-        "marks":{
-            "Maths":"43",
-            "English":"30",
-            "Science":"37"
-        },
-        "rollNumber":"KV2017-5A1"
-    },
-    {   "id" : "2",
+     {   "id" : "1",
         "name":"rajiv",
         "marks":{
             "Maths":"18",
@@ -18,6 +8,16 @@ const data = [
         },
         "rollNumber":"KV2017-5A2"
     },
+    {   "id":"2",
+        "name":"abhishek",
+        "marks":{
+            "Maths":"43",
+            "English":"30",
+            "Science":"37"
+        },
+        "rollNumber":"KV2017-5A1"
+    },
+   
 
     {   "id" : "3",
         "name":"zoya",

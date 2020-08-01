@@ -32,7 +32,12 @@ const ResultTable = (props) => {
     }
 
     const renderTable = () => (  
-        props.datas.map(data =>(
+        props.datas.sort((a, b) => {
+            const One = a.name.toUpperCase();
+            const Two = b.name.toUpperCase();
+        
+            return (One < Two) ? -1 : (One > Two) ? 1 : 0;
+          }).map(data =>(
         <tr key={data.id}>
             <td >{capitalizeFirstLetter(data.name)}</td>
             <td >{data.rollNumber}</td>
